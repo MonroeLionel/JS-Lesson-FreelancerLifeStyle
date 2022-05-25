@@ -40,7 +40,7 @@ if (number > 50) {
 //класическая запись
 
 let text1 = "лол проу"
-/*
+/* qweqwe
 let textEnd;
 if (5 > 6) {
   textEnd = "васян ";
