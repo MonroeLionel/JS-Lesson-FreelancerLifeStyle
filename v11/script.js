@@ -152,3 +152,7 @@ console.log(textSlice.slice(1, 2));
 console.log(textSlice.slice(-2, -1));
 console.log(textSlice.slice(1));
 
+console.log(textSlice.slice(1, 2));
+console.log(textSlice.slice(-2, -1));
+console.log(textSlice.slice(1));
+
