@@ -48,7 +48,7 @@ if (5 > 6) {
   textEnd = " степан";
 } 
 */
-//запись с использованием ?
+//запись с использованием ?qqq
 let textEnd = (5 > 1) ? "васян " : " степан";
 textEnd += text1;
 console.log(textEnd);
