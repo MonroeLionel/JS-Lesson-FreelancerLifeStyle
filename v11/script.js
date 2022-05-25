@@ -144,14 +144,10 @@ console.log(textInc.toLocaleLowerCase().includes(serchText.toLocaleLowerCase()))
 */
 /*
 Метод str.slice(start[,end]) возвращает часть строки
-от start до end (не включая END) 123
+от start до end (не включая END) 
 */
 
 let textSlice = "большая часть строки";
-console.log(textSlice.slice(1, 2));
-console.log(textSlice.slice(-2, -1));
-console.log(textSlice.slice(1));
-
 console.log(textSlice.slice(1, 2));
 console.log(textSlice.slice(-2, -1));
 console.log(textSlice.slice(1));
