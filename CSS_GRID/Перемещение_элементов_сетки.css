@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(141, 131, 131);
+  color: rgb(213, 226, 215);
+}
+
+.grid_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+
+
+.grid_item {
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+.grid_item_1 {
+  /*размещение элементов с помощью линий сетки
+ grid-row-start: auto; по умолчанию всегда ауто
+  grid-row-end: auto;
+*/
+
+  grid-row-start: 2;
+  grid-row-end: 1;
+
+  background-color: mediumslateblue;
+}

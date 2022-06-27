@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(141, 131, 131);
+  color: rgb(213, 226, 215);
+}
+
+.grid_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+/*если у нас есть строчный элмент в нутри группы блоков он становится тоже блочным и имеет все те же свойства что и блоки*/
+
+.grid_item {
+  margin: 30px;
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  padding: 30px;
+
+}

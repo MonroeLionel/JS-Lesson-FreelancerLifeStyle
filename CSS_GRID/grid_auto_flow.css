@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(141, 131, 131);
+  color: rgb(213, 226, 215);
+}
+
+.grid_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 200px;
+
+  grid-auto-flow: column;
+
+  /* выстраивает в ряд 
+  dense старается заполнить все пространствоо
+  
+  */
+
+}
+
+
+
+
+.grid_item {
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  padding: 30px;
+
+}

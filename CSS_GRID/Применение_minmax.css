@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(141, 131, 131);
+  color: rgb(213, 226, 215);
+}
+
+.grid_body {
+  display: grid;
+  grid-template-columns: 200px minmax(150px, 1fr) 200px;
+  grid-template-rows: 200px 300px;
+
+}
+
+/*
+minmax первый параметр это минимальное значение второй максимальный 
+в примере выше 2 колона будет занимать все свободное пространство но не меньше 150
+*/
+
+
+.grid_item {
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  padding: 30px;
+
+}
